@@ -1,0 +1,4 @@
+ <!-- O bloco de códigos do product.js ele basicamente carrega a dependência do Sequelize para que possamos usar algumas constantes dele, depois chamamos a depedência do nosso banco de dados o qual configuramos anteriormente.
+
+A seguir utilizamos uma function com define para criar o schema da nossa tabela (estrutura dos dados) sendo o primeiro parâmetro o nome que ira possuir.
+O segundo parâmetro é a definição do schema em si onde tem todos os recursos disponiveis  para cada tipo de coluna/propriedade assim usamos as constantes existente no Sequelzie (INTEGER, DOUBLE,etc.) alem dos modificadores. No fim so exportamos o model para que possamos utilizá-lo na nossa aplicação-->
