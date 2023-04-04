@@ -1,11 +1,12 @@
 const Sequelize = require('sequelize');
-const Sequelize2 = new Sequelize('orm_upx','hydeoshy','Eichamylife2014',{
+const sequelize = new Sequelize('upx2','hydeoshy','Eichamylife@2023',{
     dialect:'mysql',
-    host:'ormupx.mysql.database.azure.com',
+    host:'upx2.mysql.database.azure.com',
+    port: 3306
     
 }); 
 
-module.exports = Sequelize2;
+module.exports = sequelize;
 
 
 
