@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const sequelize = new Sequelize('upx2', 'hydeoshy', 'Eichamylife@2023', {
+const sequelize = new Sequelize('doacoes', 'hydeoshy', 'Eichamylife@2023', {
     dialect: 'mysql',
     host: 'upx2.mysql.database.azure.com',
     port: 3306,

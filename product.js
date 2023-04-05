@@ -1,21 +1,19 @@
 const Sequelize = require('sequelize');
 const database = require('./db');
 
-const Produto = database.define('ONGS',{
+const Produto = database.define('valor', {
     id: {
         type: Sequelize.INTEGER,
-        autoIncremente:true,
+        autoIncrement: true,
         allowNull: false,
         primaryKey: true
     },
-
     nome: {
-
         type: Sequelize.STRING,
         allowNull: false
     },
-    price:{
-        type: Sequelize.DOUBLE,
+    preco: {
+        type: Sequelize.DOUBLE
     },
     descricao: Sequelize.STRING
 })
